@@ -2,50 +2,16 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.4.1",
+    "appVersion": "0.4.3",
     "baseUrl": "./",
     "defaultKernelName": "python",
     "faviconUrl": "./lab/favicon.ico",
     "federated_extensions": [
       {
         "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.04dfa589925e7e7c6a3d.js",
-        "name": "@jupyter-notebook/lab-extension",
-        "style": "./style"
-      },
-      {
-        "extension": "./extension",
         "liteExtension": true,
-        "load": "static/remoteEntry.6014628263d9ee9ca44a.js",
-        "name": "@jupyterlite/javascript-kernel-extension"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": true,
-        "load": "static/remoteEntry.cdbf97db0179334e7548.js",
-        "name": "@jupyterlite/p5-kernel-extension",
-        "style": "./style"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": true,
-        "load": "static/remoteEntry.26d08a103ba745fd5c80.js",
+        "load": "static/remoteEntry.cc6da95cfedf535c8b89.js",
         "name": "@jupyterlite/pyodide-kernel-extension"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.c7a31b7a4c60a21a3aa0.js",
-        "name": "jupyterlab-open-url-parameter",
-        "style": "./style"
-      },
-      {
-        "extension": "./extension",
-        "liteExtension": false,
-        "load": "static/remoteEntry.5cbb9d2323598fbda535.js",
-        "name": "jupyterlab_pygments",
-        "style": "./style"
       }
     ],
     "fileTypes": {
@@ -327,7 +293,7 @@
     "litePluginSettings": {
       "@jupyterlite/pyodide-kernel-extension:kernel": {
         "pipliteUrls": [
-          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=51497228ca9f94ef6de188830c651a1a05ff23b0ceb39cda94625cf99aa82539"
+          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=957538a5b828832aeaa75abd6b1310f6f4a0673bcbc1f4ad3a52e35c2f7e0d4d"
         ]
       }
     },
